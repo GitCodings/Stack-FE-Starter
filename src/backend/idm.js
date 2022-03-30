@@ -1,4 +1,4 @@
-import {baseUrl, idm} from "backend/config.json";
+import Config from "backend/config.json";
 import Axios from "axios";
 
 
@@ -9,8 +9,9 @@ export async function login(loginRequest) {
     };
 
     const options = {
-        baseURL: baseUrl, // Base URL
-        url: idm.login, // Path of URL
+        method: "POST", // Method type
+        baseURL: Config.baseUrl, // Base URL
+        url: Config.idm.login, // Path of URL
         data: payLoad // Data to send in Body
     }
 

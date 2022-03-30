@@ -2,7 +2,6 @@ import React from "react";
 import Content from 'app/Content';
 import NavBar from 'app/NavBar';
 import {UserProvider} from "hook/User";
-import 'App.css';
 import styled from "styled-components";
 
 const StyledDiv = styled.div`

@@ -2,14 +2,15 @@ import React from "react";
 import {Route, Routes} from "react-router-dom";
 
 import Login from "pages/Login";
+import Home from "pages/Home";
 import styled from "styled-components";
 
 const StyledDiv = styled.div`
   display: flex;
   justify-content: center;
 
-  width: calc(100vw - 50px);
-  height: calc(100vh - 110px);
+  width: 100vw;
+  height: 100vh;
   padding: 25px;
 
   background: #ffffff;
@@ -21,6 +22,7 @@ const Content = () => {
         <StyledDiv>
             <Routes>
                 <Route path="/login" element={<Login/>}/>
+                <Route path="/" element={<Home/>}/>
             </Routes>
         </StyledDiv>
     );

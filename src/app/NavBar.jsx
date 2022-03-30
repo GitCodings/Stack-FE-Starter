@@ -23,6 +23,9 @@ const StyledNavLink = styled(NavLink)`
 const NavBar = () => {
     return (
         <StyledNav>
+            <StyledNavLink to="/">
+                Home
+            </StyledNavLink>
             <StyledNavLink to="/login">
                 Login
             </StyledNavLink>
