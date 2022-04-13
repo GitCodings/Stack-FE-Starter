@@ -1,7 +1,7 @@
 # Frontend 1 - Login
 
  - [Pages](#pages)
- - [Notes](# notes)
+ - [Notes](#notes)
  - [Video Submission](#video-submission)
 
 # Pages
