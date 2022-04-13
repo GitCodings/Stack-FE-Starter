@@ -51,5 +51,5 @@ Navigate to your website.
 6. Log in using the user you just registered (e.g., panteater@uci.edu).
    - They should have a alert with a response with a result.message of `User logged in successfullyy`
  
-## Submit
+## Submit the video
 Submit a link to your video on the corresponding Canvas assignment.
