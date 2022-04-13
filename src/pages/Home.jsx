@@ -1,8 +1,11 @@
 import React from "react";
-import {useUser} from "hook/User";
 import styled from "styled-components";
 
-const StyledDiv = styled.div`
+/**
+ * You can use these 'styled-components' to give
+ * your html components some CSS Styling
+ */
+const StyledDiv = styled.div` 
 `
 
 const StyledH1 = styled.h1`
@@ -10,9 +13,9 @@ const StyledH1 = styled.h1`
 
 const Home = () => {
     return (
-        <StyledDiv>
-            <StyledH1>Home</StyledH1>
-        </StyledDiv>
+        <div>
+            <h1>Home</h1>
+        </div>
     );
 }
 
