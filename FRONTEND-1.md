@@ -42,7 +42,7 @@
 
 ## alert
 
-We will use `alert` to check your responses for the right information.
+We will use `alert()` to check your responses for the right information.
 
 The `JSON.stringify(resonse, null, 2)` just turns the response from a `JSON Object` into a formatted string. The `null` means we dont want to add any replacer settings. The `2` means the amount of spaces to indent.
 
