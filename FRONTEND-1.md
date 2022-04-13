@@ -1,6 +1,7 @@
 # Frontend 1 - Login
 
  - [Pages](#pages)
+ - [Notes](# notes)
  - [Video Submission](#video-submission)
 
 # Pages
@@ -16,7 +17,7 @@
   <tbody>
     <tr></tr>
     <tr>
-      <th align="left" >This page facilitates user login. It should be the first thing a user sees when they first visit your website. Users must be logged in before performing any other actions on your website. For all responses from the server we would like to see a <code>alert(JSON.stringify(response))</code> of the response</th>
+      <th align="left" >This page facilitates user login. It should be the first thing a user sees when they first visit your website. Users must be logged in before performing any other actions on your website. For all responses from the server we would like to see a <code>alert(JSON.stringify(response, null, 2))</code> of the response</th>
     </tr>
   </tbody>
 </table>
@@ -32,10 +33,18 @@
   <tbody>
     <tr></tr>
     <tr>
-      <th align="left" >This page facilitates user account registration. For all responses from the server we would like to see a <code>alert(JSON.stringify(response))</code> of the response</th>
+      <th align="left" >This page facilitates user account registration. For all responses from the server we would like to see a <code>alert(JSON.stringify(response, null, 2))</code> of the response</th>
     </tr>
   </tbody>
 </table>
+
+# Notes
+
+## alert
+
+We will use `alert` to check your responses for the right information.
+
+The `JSON.stringify(resonse, null, 2)` just turns the response from a `JSON Object` into a formatted string. The `null` means we dont want to add any replacer settings. The `2` means the amount of spaces to indent.
 
 # Video Submission
 
