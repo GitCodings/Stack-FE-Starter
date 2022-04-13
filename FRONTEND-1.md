@@ -13,7 +13,7 @@
   <tbody>
     <tr></tr>
     <tr>
-      <th align="left" >This page facilitates user login. It should be the first thing a user sees when they first visit your website. Users must be logged in before performing any other actions on your website. For all responses from the server we would like to see a `console.alert()` of the response</th>
+      <th align="left" >This page facilitates user login. It should be the first thing a user sees when they first visit your website. Users must be logged in before performing any other actions on your website. For all responses from the server we would like to see a <code>console.alert()</code> of the response</th>
     </tr>
   </tbody>
 </table>
@@ -29,7 +29,7 @@
   <tbody>
     <tr></tr>
     <tr>
-      <th align="left" >This page facilitates user account registration. For all responses from the server we would like to see a `console.alert()` of the response</th>
+      <th align="left" >This page facilitates user account registration. For all responses from the server we would like to see a <code>console.alert()</code> of the response</th>
     </tr>
   </tbody>
 </table>
