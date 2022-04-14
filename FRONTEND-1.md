@@ -1,4 +1,4 @@
-# Frontend 1 - Login
+# Frontend 1 - Register
 
  - [Pages](#pages)
  - [Notes](#notes)
