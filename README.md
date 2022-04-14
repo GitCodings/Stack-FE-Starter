@@ -46,9 +46,7 @@ You may also see any lint errors in the console.
 
 ### useForm()
 
-
- * This is a library that helps us with gathering input values from our
- * users.
+This is a library that helps us with gathering input values from our users.
  
 Whenever we make a html component that takes a value (<input>, <select>, ect) we call this function in this way:
 ```javascript
