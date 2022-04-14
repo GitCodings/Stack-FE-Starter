@@ -26,9 +26,6 @@ const StyledDiv = styled.div`
  * as many Components as you want, but they must be "Wrapped" into a single
  * Component. As we can see below, all the components are wrapped into the
  * <UserProvider> Component.
- * <br>
- * Whenever you add a NavLink here make sure to add a corresponding Route in
- * the Content Component
  * <li><UserProvider> - A Component allows us to do some data storage we will
  * talk about later
  * <li><StyledDiv> - A html div (think of these as boxes that <i>divide</i> the
