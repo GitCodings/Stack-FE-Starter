@@ -1,5 +1,8 @@
 # Frontend 3 - Full
 
+ - [Pages](#pages)
+ - [Video Submission](#video-submission)
+
 # Pages
 
 ## Login Page (Already Implemented)
@@ -13,7 +16,7 @@
   <tbody>
     <tr></tr>
     <tr>
-      <th align="left" >This page facilitates user login. It should be the first thing a user sees when they first visit your website. Users must be logged in before performing any other actions on your website. If the login process succeeds, the user will be redirected to the index page. There should be a link to the register user page.</th>
+      <th align="left" >This page facilitates user login. It should be the first thing a user sees when they first visit your website. Users must be logged in before performing any other actions on your website. If the login process succeeds, the user will be redirected to the home page.</th>
     </tr>
   </tbody>
 </table>
@@ -29,7 +32,7 @@
   <tbody>
     <tr></tr>
     <tr>
-      <th align="left" >This page facilitates user account registration. If the register process succeeds, the user will be redirected to the login page. Alternatively, you could login the user automatically after registering. If you login the user yourself, then they must be redirected to the index page. There should be a link to the login page.</th>
+      <th align="left" >This page facilitates user account registration. If the register process succeeds, the user will be redirected to the login page.</th>
     </tr>
   </tbody>
 </table>
@@ -45,7 +48,7 @@
   <tbody>
     <tr></tr>
     <tr>
-      <th  colspan="2" align="left" >This view allows a logged-in user to search for movies. It should include a search bar, filters, and a results area. It will make a REST call to the `/movies/search` endpoint of your Movies microservice. This page view should include at least the following elements:</th>
+      <th  colspan="2" align="left" >This view allows a logged-in user to search for movies. It should include a search bar, filters, and a results area. It will make a REST call to the <code>/movies/search</code> endpoint of your Movies microservice. This page view should include at least the following elements:</th>
     </tr>
     <tr>
       <th align="left">Search Bar</th><th align="left" >This area is where users can enter text pertaining to movies they want to view. There should be a search button next to it that will execute the search.</th>
