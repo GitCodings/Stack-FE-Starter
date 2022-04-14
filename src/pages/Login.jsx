@@ -20,12 +20,23 @@ const StyledButton = styled.button`
 `
 
 const Login = () => {
+    /** This is a hook we will use to keep track of our accessToken and
+     * refreshToken given to use when the user calls "login".
+     * <br>
+     * For now, it is not being used, but we recommend setting the two tokens
+     * here to the tokens you get when the user completes the login call (once
+     * you are in the .then() function after calling login)
+     * <br>
+     * These have logic inside them to make sure the accessToken and
+     * refreshToken are saved into the local storage of the web browser
+     * allowing you to keep values alive even when the user leaves the website
+     */
     const {
         accessToken, setAccessToken,
         refreshToken, setRefreshToken
     } = useUser();
 
-    const { register, getValues, handleSubmit } = useForm();
+    const {register, getValues, handleSubmit} = useForm();
 
     const submitLogin = () => {
         const email = getValues("email");

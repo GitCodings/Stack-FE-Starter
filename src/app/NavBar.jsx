@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import {NavLink} from "react-router-dom";
 import styled from "styled-components";
 
 const StyledNav = styled.nav`
@@ -10,16 +10,26 @@ const StyledNav = styled.nav`
   height: 50px;
   padding: 5px;
 
-  background-color: var(--detail-color);
+  background-color: #fff;
 `;
 
 const StyledNavLink = styled(NavLink)`
   padding: 10px;
   font-size: 25px;
-  color: var(--detail-font-color);
+  color: #000;
   text-decoration: none;
 `;
 
+/**
+ * To be able to navigate around the website we have these NavLink's (Notice
+ * that they are "styled" NavLink's that are now named StyledNavLink)
+ *
+ * You can add as many Link as you would like here to allow for better navigation
+ *
+ * Below we have two Links:
+ * <li>Home - A link that will change the url of the page to "/"
+ * <li>Login - A link that will change the url of the page to "/login"
+ */
 const NavBar = () => {
     return (
         <StyledNav>
