@@ -1,7 +1,6 @@
 # Frontend 1 - Register
 
  - [Pages](#pages)
- - [Notes](#notes)
  - [Video Submission](#video-submission)
 
 # Pages
@@ -38,21 +37,12 @@
   </tbody>
 </table>
 
-# Notes
-
-## alert
-
-We will use `alert()` to check your responses for the right information.
-
-The `JSON.stringify(resonse, null, 2)` just turns the response from a `JSON Object` into a formatted string. The `null` means we dont want to add any replacer settings. The `2` means the amount of spaces to indent.
-
 # Video Submission
 
 ## Create a video submission. 
 YouTube private video, shared by link, works well for video submission for this class. Video submissions should be less than 2 minutes long and follow this scenario:
 1. Off-screen, deploy your IDM microservice and mini-frontend on your local device. Do not include this part in the video.
 2. Open your browser and open a network panel (`CTRL + SHIFT + J` on Windows, or `COMMAND + OPTION + J` on Mac). Keep this panel open as you continue with the following steps.
-Navigate to your website.
 3. Try to log in using an unregistered username and password. 
    - They should have a alert with a response with a result.message of `User not found`
 5. Next, register a new user (e.g., with login panteater@uci.edu and a password of your choice).
