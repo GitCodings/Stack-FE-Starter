@@ -30,7 +30,7 @@ const StyledDiv = styled.div`
  * talk about later
  * <li><StyledDiv> - A html div (think of these as boxes that <i>divide</i> the
  * page). This particular div is a "styled" div, as in a div that has some css
- * inside it. YOu can see the style we apply to it above in the
+ * inside it. You can see the style we apply to it above in the
  * <b>StyledDiv</b> variable
  * <li><NavBar> - The top Navigation bar with links to all our pages
  * <li><Content> - This Is a component that can have its contents be decided by

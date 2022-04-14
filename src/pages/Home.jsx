@@ -1,10 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 
-/**
- * You can use these 'styled-components' to give
- * your html components some CSS Styling
- */
 const StyledDiv = styled.div` 
 `
 
