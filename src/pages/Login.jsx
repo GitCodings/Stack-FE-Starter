@@ -20,7 +20,8 @@ const StyledButton = styled.button`
 `
 
 const Login = () => {
-    /** This is a hook we will use to keep track of our accessToken and
+    /**
+     * This is a hook we will use to keep track of our accessToken and
      * refreshToken given to use when the user calls "login".
      * <br>
      * For now, it is not being used, but we recommend setting the two tokens
