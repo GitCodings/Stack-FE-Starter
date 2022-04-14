@@ -68,11 +68,11 @@
 
 ## Create a video submission. 
 YouTube private video, shared by link, works well for video submission for this class. Video submissions should be less than 2 minutes long and follow this scenario:
-1. Off-screen, deploy your IDM microservice (using reasonable configs so that sessions do not expire), deploy your Movies service, and deploy your mini-frontend on your local device. Do not include this part in the video.
-2. Open your security-disabled browser and open a network panel (CTRL+SHIFT+J on Windows, or COMMAND+OPTION+J on Mac). Keep this panel open as you continue with the following steps.
-3. Navigate to your website. (we should see the Login View with a link to Register View)
-4. Navigate to the Register View. Register a new user. (we should see a switch to the Login View)
-5. Login using the user you just created. (we should see a switch to Search View)
+1. Off-screen, deploy your IDM Service, your Movies service, and your mini-frontend on your local device. Do not include this part in the video.
+2. Open your browser and open a network panel (`CTRL + SHIFT + J` on Windows, or `COMMAND + OPTION + J` on Mac). Keep this panel open as you continue with the following steps.
+3. Navigate to your website. (we should see the Login View with a link to Register Page)
+4. Navigate to the Register View. Register a new user. (we should see a switch to the Login Page)
+5. Login using the user you just created. (we should see a switch to Home Page)
 6. Search for movies with `game` in their title. If necessary, scroll to show the results.
 7. Search for movies with directors named `Chris`. If necessary, scroll down to show the results.
 8. Search for movies released in the year `2005`. If necessary, scroll down to show the results.
