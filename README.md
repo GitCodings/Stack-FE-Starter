@@ -48,10 +48,12 @@ You may also see any lint errors in the console.
 
 This is a library that helps us with gathering input values from our users.
  
-Whenever we make a html component that takes a value (<input>, <select>, ect) we call this function in this way:
+Whenever we make a html component that takes a value (\<input>, \<select>, ect) we call this function in this way:
+ 
 ```javascript
-   <input {...register("email")} > // With "email" being whatever you want to call the input
+<input {...register("email")} > // With "email" being whatever you want to call the input
 ```
+ 
 Notice that we have "{}" with a function call that has "..." before it. This is just a way to take all the stuff that is returned by register and *distribute* it as attributes for our components. Do not worry too much about the specifics of it, if you would like you can read up more about it on "react-hook-form"'s documentation:
 [React Hook Form: register](https://react-hook-form.com/api/useform/register)
 Their documentation is very detailed and goes into all of these functions with great examples. 
