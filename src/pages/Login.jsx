@@ -72,6 +72,7 @@ const Login = () => {
         refreshToken, setRefreshToken
     } = useUser();
 
+
     const {register, getValues, handleSubmit} = useForm();
 
     const submitLogin = () => {
@@ -84,7 +85,8 @@ const Login = () => {
         }
 
         login(payLoad)
-            .then(response => alert(JSON.stringify(response.data, null, 2)));
+            .then(response => alert(JSON.stringify(response.data, null, 2)))
+            .catch(response => alert(JSON.stringify(response.data, null, 2)));
     }
 
     return (
