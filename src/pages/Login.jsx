@@ -81,12 +81,12 @@ const Login = () => {
 
         const payLoad = {
             email: email,
-            password: password
+            password: password.split('')
         }
 
         login(payLoad)
             .then(response => alert(JSON.stringify(response.data, null, 2)))
-            .catch(response => alert(JSON.stringify(response.data, null, 2)));
+            .catch(error => alert(JSON.stringify(error.response.data, null, 2)))
     }
 
     return (
