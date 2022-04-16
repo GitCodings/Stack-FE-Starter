@@ -33,8 +33,7 @@ Api to help with communication with the localStorage. \
 2. Type `npm` in your terminal to ensure you correctly installed node
 3. Type `npm install` within the root of this repo to install all the dependencies (This will take a while)
 4. Type `npm start` within the root of this repo to start the server and you should have a window open with the front end
-
-**In case of error** If you run into a missing dependency error try npm install again then npm start
+5. When running the frontend please make sure if is set to the **default port of 3000** the backend depends on this to properly communicate with it. (Sometimes it will ask you if you would like to run on a new port, always makesure it runs on port 3000)
 
 ## Create React App
 
