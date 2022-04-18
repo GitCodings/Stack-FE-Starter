@@ -7,7 +7,7 @@
 
 ## Setup Instructions
 
-1. Download and install [node.js](https://github.com/klefstad-teaching/CS122B#javascript)
+1. Download and install Node.js: [Javascript Section Tools](https://github.com/klefstad-teaching/CS122B#javascript)
 2. Type `npm` in your terminal to ensure you correctly installed node
 3. Type `npm install` within the root of this repo to install all the dependencies (This will take a while)
 4. Type `npm start` within the root of this repo to start the server and you should have a window open with the front end
