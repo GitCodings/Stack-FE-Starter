@@ -18,7 +18,7 @@ import Axios from "axios";
  * login(request)
  * .then(response => alert(JSON.stringify(response.data, null, 2)));
  */
-export async function login(loginRequest) {
+async function login(loginRequest) {
     const requestBody = {
         email: loginRequest.email,
         password: loginRequest.password
@@ -32,4 +32,8 @@ export async function login(loginRequest) {
     }
 
     return Axios.request(options);
+}
+
+export default {
+    login
 }

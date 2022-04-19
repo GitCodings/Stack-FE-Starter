@@ -2,7 +2,7 @@ import React from "react";
 import {useUser} from "hook/User";
 import styled from "styled-components";
 import {useForm} from "react-hook-form";
-import {login} from "backend/idm";
+import Idm from "backend/idm";
 
 
 const StyledDiv = styled.div`
@@ -84,7 +84,7 @@ const Login = () => {
             password: password.split('')
         }
 
-        login(payLoad)
+        Idm.login(payLoad)
             .then(response => alert(JSON.stringify(response.data, null, 2)))
             .catch(error => alert(JSON.stringify(error.response.data, null, 2)))
     }
