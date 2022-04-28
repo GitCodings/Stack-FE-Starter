@@ -1,6 +1,7 @@
 # CS122B Frontend
 
 - [Setup Instructions](#setup-instructions)
+- [React](#react)
 - [React Router Dom](#react-router-dom)
 - [React Hook Form](#react-hook-form)
 - [Axios](#axios)
@@ -13,6 +14,84 @@
 3. Type `npm install` within the root of this repo to install all the dependencies (This will take a while)
 4. Type `npm start` within the root of this repo to start the server and you should have a window open with the front end
 5. When running the frontend please make sure if is set to the **default port of 3000** the backend depends on this to properly communicate with it. (Sometimes it will ask you if you would like to run on a new port, always makesure it runs on port 3000)
+
+## React
+
+We will be using `React` to help build our frontend. `React` as the name implies is a library that updates the html to *react* to internal changes in our javascript code.
+
+### Making a React Component
+
+To make a React component all we need to do is have a function that returns some [JSX](https://reactjs.org/docs/introducing-jsx.html).
+
+```javascript
+const App = () => {
+    return (
+        <div>
+            <h1>Hello World!</h1>
+        </div>
+    );
+};
+```
+
+Notice that once you are inside of a `JSX` block text is treated a literal strings (the 'Hello World!'). If you wanted to place some javascript inside of `JSX` then you would need to wrap it in `{}` braces like so:
+
+```javascript
+const App = () => {
+    const message = "Hello World!";
+    
+    return (
+        <div>
+            <h1>{message}</h1>
+        </div>
+    );
+};
+```
+
+### React.useState()
+
+If we want to use variables that will update the page when they are updated we need to use `React.useState()`. This function takes one argument, the "inital state" of the value, and returns two things: a value, and a function to use when you want to update the value.
+
+
+```javascript
+const App = () => {
+    const [ message, setMessage ] = React.useState("Hello World");
+    
+    const update = () => {
+        setMessage("Updated Hello World!");
+    };
+    
+    return (
+        <div>
+            <h1>{message}</h1>
+            <button onClick={update}>Update Message!</h1>
+        </div>
+    );
+};
+```
+
+### React.useEffect()
+
+If we want to create some inital logic when the component is created we can use `React.useEffect()`. this function takes two arguments, a lambda to call when the componenet is finished rendering, and a "dependency array" which is a list of variables, which list the varaibles that will cause the lamgda to be called again when they are updated.
+
+
+```javascript
+const App = () => {
+    const [ message, setMessage ] = React.useState("");
+    
+     React.useEffect(() => {
+        getMessage(searchParams)
+            .then(response => setMessage(response.data.message))
+    }, [setMessage]);
+
+    
+    return (
+        <div>
+            <h1>{message}</h1>
+        </div>
+    );
+};
+```
+
 
 ## React Router Dom
 Helps with user navigation throughout the website. \
