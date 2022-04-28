@@ -1,4 +1,4 @@
-# Frontend 2 - Search
+# Frontend 3 - Full
 
  - [Pages](#pages)
  - [Video Submission](#video-submission)
