@@ -1,4 +1,4 @@
-# Frontend 3 - Full
+# Frontend 2 - Search
 
  - [Pages](#pages)
  - [Video Submission](#video-submission)
@@ -16,7 +16,7 @@
   <tbody>
     <tr></tr>
     <tr>
-      <th align="left" >This page facilitates user login. It should be the first thing a user sees when they first visit your website. Users must be logged in before performing any other actions on your website. If the login process succeeds, the user will be redirected to the home page.</th>
+      <td align="left" >This page facilitates user login. It should be the first thing a user sees when they first visit your website. Users must be logged in before performing any other actions on your website. If the login process succeeds, the user will be redirected to the home page.</td>
     </tr>
   </tbody>
 </table>
@@ -26,13 +26,13 @@
 <table>
   <thead>
     <tr>
-      <th align="left" width="1100">📄&nbsp;&nbsp;Register</th>
+      <td align="left" width="1100">📄&nbsp;&nbsp;Register</td>
     </tr>
   </thead>
   <tbody>
     <tr></tr>
     <tr>
-      <th align="left" >This page facilitates user account registration. If the register process succeeds, the user will be redirected to the login page.</th>
+      <td align="left" >This page facilitates user account registration. If the register process succeeds, the user will be redirected to the login page.</td>
     </tr>
   </tbody>
 </table>
@@ -48,20 +48,40 @@
   <tbody>
     <tr></tr>
     <tr>
-      <th  colspan="2" align="left" >This view allows a logged-in user to search for movies. It should include a search bar, filters, and a results area. It will make a REST call to the <code>/movies/search</code> endpoint of your Movies microservice. This page view should include at least the following elements:</th>
+      <td  colspan="2" align="left" >This view allows a logged-in user to search for movies. It should include a search bar, filters, pagination, and a results area. It will make a REST call to the <code>/movies/search</code> endpoint of your Movies microservice. This page view should include at least the following elements:</td>
     </tr>
     <tr>
-      <th align="left">Search Bar</th><th align="left" >This area is where users can enter text pertaining to movies they want to view. There should be a search button next to it that will execute the search.</th>
-    </tr>
-    <tr></tr>
-    <tr>
-      <th align="left" >Filters</th><th align="left" >Users will be able to search for movies by title, year, or director individually (you are not required to implement combined searches). You may implement these filters using radio buttons, a dropdown list, or any other graphical element you prefer. The filters should be located near the search bar for ease of use.</th>
+      <td align="left">Search Bar</td><td align="left" >This area is where users can enter text pertaining to movies they want to view.</td>
     </tr>
     <tr></tr>
     <tr>
-      <th align="left" >Results Area</th> <th align="left" >All results from a search query will be displayed here as a table. The table will have columns corresponding to each movie's title, year, and director. Pressing the search button (mentioned previously, next to the search bar) should execute a new search and update these results.</th>
+      <td align="left" >Filters</td><td align="left" >Users will be able to search for movies by <code>title</code>, <code>year</code>, <code>director</code>, and <code>genre</code>.</td>
+    </tr>
+    <tr></tr>
+    <tr>
+      <td align="left" rowspan="9">Pagination</td> 
+    <tr>
+    <tr>
+      <td align="left" >Users should be able to select the sort by <code>title</code> (default selection), <code>rating</code>, or <code>year</code></td> 
+    <tr>
+    <tr>
+      <td align="left" >Users should be able to select the order by <code>asc</code> (default selection) or <code>desc</code></td> 
+    <tr>
+    <tr>
+      <td align="left" >Users should be able to select the amount of movies to list <code>10</code> (default selection), <code>25</code>, <code>50</code> or <code>100</code></td> 
+    <tr>
+    <tr>
+      <td align="left" >Users should be able to go to the <code>next</code> or <code>previous</code> page of the search results</td> 
+    <tr></tr>
+    <tr>
+      <td align="left" >Results Area</td> <td align="left" >All results from a search query will be displayed here as a table. The table will have columns corresponding to each movie's title, year, and director. A new search should update these results.</td>
     </tr>
   </tbody>
 </table>
 
-## Video Submission
+# Video Submission
+
+## Create a video submission. 
+
+## Submit the video
+Submit a link to your video on the corresponding Canvas assignment.
