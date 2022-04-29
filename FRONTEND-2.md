@@ -93,7 +93,7 @@ YouTube private video, shared by link, works well for video submission for this 
 6. Search for movies with `game` in their title. If necessary, scroll to show the results.
 7. Still using `game` title: switch the sort to `rating`, the order by to `desc` and the limit to `25` and search
 8. Still using the same sort, order, and limit: Search for movies released in the year `2005`. If necessary, scroll down to show the results.
-9. **(tentative will update if needed)** Go to the next page (page 2) of the previous results **(tentative will update if needed)**
+9. **(tentative will state later if needed)** Go to the next page (page 2) of the previous results **(tentative will state later if needed)**
 
 ## Submit the video
 Submit a link to your video on the corresponding Canvas assignment.
