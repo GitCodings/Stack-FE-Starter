@@ -55,7 +55,7 @@
     </tr>
     <tr></tr>
     <tr>
-      <td align="left" >Filters</td><td align="left" >Users will be able to search for movies by <code>title</code>, <code>year</code>, <code>director</code>, and <code>genre</code>.</td>
+      <td align="left" >Filters</td><td align="left" >Users will be able to search for movies by <code>title</code>, <code>year</code>, <code>director</code>, and / or <code>genre</code>. You can have this as separate inputs or a single input that changes depending on some dropdown, whatever you would like.</td>
     </tr>
     <tr></tr>
     <tr>
