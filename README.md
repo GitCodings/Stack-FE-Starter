@@ -347,6 +347,25 @@ async function myRequest() {
 }
 ```
 
+### Marking a REST call with an authorization header
+
+To make a request that requres an accessToken as a Authorization header we can pass a object that lists the headers and their values to the `headers` parameter in options like so.
+
+```javascript
+async function myRequest(accessToken) {
+    const options = {
+        method: "GET", // Method type
+        baseURL: "http://localhost:8080", // Base part of URL
+        url: "/secured/path", // Path part of URL,
+		headers: {
+			Authorization: "Bearer " + accessToken
+		}
+    }
+
+    return Axios.request(options);
+}
+```
+
 ## Styled Components
 Api for creating reusable css styled html components. \
 [Website](https://styled-components.com/) [npm](https://www.npmjs.com/package/styled-components)
