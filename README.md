@@ -357,9 +357,9 @@ async function myRequest(accessToken) {
         method: "GET", // Method type
         baseURL: "http://localhost:8080", // Base part of URL
         url: "/secured/path", // Path part of URL,
-		headers: {
-			Authorization: "Bearer " + accessToken
-		}
+	    headers: {
+	        Authorization: "Bearer " + accessToken
+	    }
     }
 
     return Axios.request(options);
