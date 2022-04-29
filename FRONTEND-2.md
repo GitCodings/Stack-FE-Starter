@@ -1,13 +1,9 @@
-# These are subject to change, we will confirm during class today
-
 # Frontend 2 - Search
 
  - [Pages](#pages)
  - [Video Submission](#video-submission)
 
 # Pages
-
-# These are subject to change, we will confirm during class today
 
 ## Login Page (Already Implemented)
 
@@ -83,8 +79,6 @@
   </tbody>
 </table>
 
-# These are subject to change, we will confirm during class today
-
 # Video Submission
 
 ## Create a video submission. 
@@ -99,6 +93,7 @@ YouTube private video, shared by link, works well for video submission for this 
 6. Search for movies with `game` in their title. If necessary, scroll to show the results.
 7. Still using `game` title: switch the sort to `rating`, the order by to `desc` and the limit to `25` and search
 8. Still using the same sort, order, and limit: Search for movies released in the year `2005`. If necessary, scroll down to show the results.
+9. Go to the next page (page 2) of the previous results
 
 ## Submit the video
 Submit a link to your video on the corresponding Canvas assignment.
