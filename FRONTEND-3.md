@@ -91,7 +91,7 @@
   <tbody>
     <tr></tr>
     <tr>
-     <td align="left" >This page will show the <code>CheckoutForm.jsx</code> provided by Stripe found here: [Custom Payment Flow](https://stripe.com/docs/payments/quickstart). Note that we are using the <b>Custom Payment Flow</b> for this project. Please read through the documentation to see how to set this up. As some guidelines check out the <code>App.jsx</code> file to see how to <code>loadStripe(publicKey)</code> and to see what the work flow looks like (We start by getting our creating our <code>PaymentIntent</code> (by calling our <code>GET /order/payment</code> endpoint) to get our <code>paymentIntentId</code> and <code>clientSecret</code> and then after the payment is complete (by calling <code>retrievePaymentIntent(clientSecret)</code> promise) we call our <code>POST /order/complete</code> endpoint to complete the order.</td>
+     <td align="left" >This page will show the <code>CheckoutForm.jsx</code> provided by Stripe found here: <a href="https://stripe.com/docs/payments/quickstart">Custom Payment Flow</a>. Note that we are using the <b>Custom Payment Flow</b> for this project. Please read through the documentation to see how to set this up. As some guidelines check out the <code>App.jsx</code> file to see how to <code>loadStripe(publicKey)</code> and to see what the work flow looks like (We start by getting our creating our <code>PaymentIntent</code> (by calling our <code>GET /order/payment</code> endpoint) to get our <code>paymentIntentId</code> and <code>clientSecret</code> and then after the payment is complete (by calling <code>retrievePaymentIntent(clientSecret)</code> promise) we call our <code>POST /order/complete</code> endpoint to complete the order.</td>
     </tr>
   </tbody>
 </table>
