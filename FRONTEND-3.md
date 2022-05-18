@@ -157,7 +157,7 @@ YouTube private video, shared by link, works well for video submission for this 
 6. Go to your cart to show that it is `empty`
 7. Go to your order history to show that it is `empty`
 8. Search for movies with the genre `Action` with the year `2012` sort by `Rating` `Desc`
-9. Change the search to movies with the director `Christopher Nolan` sort by `Rating` `Desc`
+9. Make a brand new search for movies with the director `Christopher Nolan` sort by `Rating` `Desc`
 10. Find: `The Dark Knight` and go to its detail page.
 11. Add `three` copies of `The Dark Knight` to the shopping cart.
 12. Search with the director `russo` sort by `Rating` `Desc`
