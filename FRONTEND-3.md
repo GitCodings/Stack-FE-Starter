@@ -151,9 +151,9 @@
 YouTube private video, shared by link, works well for video submission for this class. Video submissions should be less than 5 minutes long and follow this scenario:
 1. Off-screen, deploy your IDM Service, your Movies service, and your mini-frontend on your local device. Do not include this part in the video.
 2. Open your browser and open a network panel (`CTRL + SHIFT + J` on Windows, or `COMMAND + OPTION + J` on Mac). Click the `Network` tab so we can see the network activity. Keep this panel open as you continue with the following steps.
-3. Navigate to your website. (we should see the Login View with a link to Register Page)
-4. Navigate to the Register View. Register a new user. (we should see a switch to the Login Page)
-5. Login using the user you just created. (we should see a switch to Home Page)
+3. Navigate to your website.
+4. Navigate to the Register View. Register a new user. (user name should be your ucinetid)
+5. Login using the user you just created.
 6. Go to your cart to show that it is `empty`
 7. Go to your order history to show that it is `empty`
 8. Search for movies with the genre `Action` with the year `2012` sort by `Rating` `Desc`
