@@ -1,6 +1,7 @@
 # Frontend 3 - Full
 
  - [Pages](#pages)
+ - [Requirements](#requirements)
  - [Video Submission](#video-submission)
 
 # Pages
@@ -144,6 +145,12 @@
     </tr>
   </tbody>
 </table>
+
+# Requirements
+
+## Images
+
+You must use the images provided by the `backdrop_path` and `poster_path`. You may use this images where ever you have access to them.
 
 # Video Submission
 
