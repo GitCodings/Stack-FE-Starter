@@ -159,7 +159,7 @@ YouTube private video, shared by link, works well for video submission for this 
 1. Off-screen, deploy your IDM Service, your Movies service, and your mini-frontend on your local device. Do not include this part in the video.
 2. Open your browser and open a network panel (`CTRL + SHIFT + J` on Windows, or `COMMAND + OPTION + J` on Mac). Click the `Network` tab so we can see the network activity. Keep this panel open as you continue with the following steps.
 3. Navigate to your website.
-4. Navigate to the Register View. Register a new user. (user name should be your ucinetid)
+4. Navigate to the Register View. Register a new user.
 5. Login using the user you just created.
 6. Go to your cart to show that it is `empty`
 7. Go to your order history to show that it is `empty`
